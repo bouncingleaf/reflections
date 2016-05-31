@@ -1,0 +1,16 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+git creates the .git directory, which will be used to track repo information.
+It needs to be done... I guess so git can tell if you are committing to an 
+existing repo or a new one? to build the file structure? Why not do all this
+on the first git command?
+
+How is the staging area different from the working directory and the repository? 
+What value do you think it offers?
+
+The staging area lets you decide what files to commit or not prior to committing.
+The working directory has all of your stuff whether it is in the repo or not.
+The repository has only what you have chosen to add.
+The staging area lets you choose wisely (and change your mind before committing 
+if needed).
+
