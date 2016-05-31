@@ -1,0 +1,52 @@
+'
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+It cut out all the stuff that was the same, stuff I didn not need to look at.
+That stuff was just clutter as far as I was concerned.
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+I can more easily find bugs that I have introduced, because I can compare and see what changed.
+or I can more easily revert to an older version if needed, either for testing or to start fresh
+with a known good copy.
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, 
+like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Pros of manually choosing: you can commit when it makes the most logical sense. Your
+commits can group changes by purpose. You may not wind up with as many commits, so
+you will have fewer commits to search through when looking for a particular change.
+Manual committing also gives you the opportunity to comment on the content of the 
+changes, without interrupting your work to do that.
+
+Cons of manually choosing: you might forget, or get carried away and then wind up 
+committing too much. You might not be ready to commit an hour of work just yet, but
+then something happens to your file and you just lost the past hour of work. Also,
+if you are sharing the document with someone else, that other person may not have
+the most recent version of it if they need to wait for you to commit it.
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, 
+while others, like Google Docs, treat each file separately?
+
+Git is designed for programmers, and code is more likely to be interconnected than various
+Google Docs. I guess?
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+Well you would use git log to find out what changed, and then git diff to see what
+specifically changed in each file. It would be nicer if I had a way to see the 
+history of specific files, but you have not shown that yet.
+
+
+How might using version control make you more confident to make changes that could break something?
+
+Oh sure, I would be more confident knowing that I could revert the changes easily at any time.
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Javascript! Well, eventually. For now I would just like to learn it with any text files.
