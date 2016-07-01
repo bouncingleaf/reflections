@@ -5,6 +5,7 @@ It needs to be done... I guess so git can tell if you are committing to an
 existing repo or a new one? to build the file structure? Why not do all this
 on the first git command?
 
+
 How is the staging area different from the working directory and the repository? 
 What value do you think it offers?
 
@@ -14,3 +15,12 @@ The repository has only what you have chosen to add.
 The staging area lets you choose wisely (and change your mind before committing 
 if needed).
 
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Only add files to the staging area that have changes related to the other changes
+in the staging area. Before committing, use git diff --staged to review your changes
+and confirm that they are all related.
+
+
+ 
