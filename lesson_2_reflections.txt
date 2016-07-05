@@ -23,4 +23,26 @@ in the staging area. Before committing, use git diff --staged to review your cha
 and confirm that they are all related.
 
 
- 
+What are some situations when branches would be helpful in keeping your history 
+organized? How would branches help? 
+
+Branches would be helpful if I am working on a larger enhancement and I want to 
+develop it separately from the main branch. Maybe the incomplete enhancement code
+would break the running application, or maybe I need to keep the non-enhanced 
+code available for bug fixes. Or maybe my enhancement might turn out to be a bad
+idea altogether, and I want to be able to discard it without having to worry about
+any other changes that might have been made during its development - so a separate
+branch will keep other people from making changes based on the experimental code
+that will then be problematic to undo.
+
+
+How do the diagrams help you visualize the branch structure?
+
+They help show how each commit has a parent, and how you can "reach" certain 
+commits from various points but not from other points. Also, if I created a branch
+after making some commits while I had an earlier commit checked out, the diagram
+helps me make sense of that by showing me that this just gives that new thing I 
+created a name. 
+
+I guess it also means you can create a branch from anywhere in the past that you
+like... go back to last tuesday and branch off of that. 
