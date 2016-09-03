@@ -49,3 +49,13 @@ like... go back to last tuesday and branch off of that.
 
 And it explains why some commits could be unreachable. Also explains what the
 HEAD node is.
+
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+When the branches are merged, the changes for one branch are applied to the
+code from the other branch. Showing this in the diagram as split and rejoined
+lets us see that development of these items happened separately.
+
+
