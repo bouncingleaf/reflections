@@ -1,18 +1,18 @@
 What happens when you initialize a repository? Why do you need to do it?
 
 git creates the .git directory, which will be used to track repo information.
-It needs to be done... I guess so git can tell if you are committing to an 
+It needs to be done... I guess so git can tell if you are committing to an
 existing repo or a new one? to build the file structure? Why not do all this
 on the first git command?
 
 
-How is the staging area different from the working directory and the repository? 
+How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
 The staging area lets you decide what files to commit or not prior to committing.
 The working directory has all of your stuff whether it is in the repo or not.
 The repository has only what you have chosen to add.
-The staging area lets you choose wisely (and change your mind before committing 
+The staging area lets you choose wisely (and change your mind before committing
 if needed).
 
 
@@ -23,12 +23,12 @@ in the staging area. Before committing, use git diff --staged to review your cha
 and confirm that they are all related.
 
 
-What are some situations when branches would be helpful in keeping your history 
-organized? How would branches help? 
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
 
-Branches would be helpful if I am working on a larger enhancement and I want to 
+Branches would be helpful if I am working on a larger enhancement and I want to
 develop it separately from the main branch. Maybe the incomplete enhancement code
-would break the running application, or maybe I need to keep the non-enhanced 
+would break the running application, or maybe I need to keep the non-enhanced
 code available for bug fixes. Or maybe my enhancement might turn out to be a bad
 idea altogether, and I want to be able to discard it without having to worry about
 any other changes that might have been made during its development - so a separate
@@ -38,11 +38,14 @@ that will then be problematic to undo.
 
 How do the diagrams help you visualize the branch structure?
 
-They help show how each commit has a parent, and how you can "reach" certain 
+They help show how each commit has a parent, and how you can "reach" certain
 commits from various points but not from other points. Also, if I created a branch
 after making some commits while I had an earlier commit checked out, the diagram
-helps me make sense of that by showing me that this just gives that new thing I 
-created a name. 
+helps me make sense of that by showing me that this just gives that new thing I
+created a name.
 
 I guess it also means you can create a branch from anywhere in the past that you
-like... go back to last tuesday and branch off of that. 
+like... go back to last tuesday and branch off of that.
+
+And it explains why some commits could be unreachable. Also explains what the
+HEAD node is.
