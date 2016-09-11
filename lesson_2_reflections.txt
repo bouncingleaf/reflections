@@ -59,3 +59,13 @@ code from the other branch. Showing this in the diagram as split and rejoined
 lets us see that development of these items happened separately.
 
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging can save some time and effort, as well as reducing human error,
+as long as the merge is fairly straightforward.
+
+However, it's certainly possible for an automatic merge to go awry. Let's say I have
+x defined at the top of the file. User A removes x; user B adds something new that
+uses x. We could very well wind up automatically applying both edits, which could
+cause code to be invalid.
+
