@@ -47,12 +47,26 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    It allows you to easily compare any changes you've made locally with
+    the state of the remote as of the last time you updated it. Then you
+    can decide if you want to incorporate anything new on the remote with
+    your current local master.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    You could collaborate with a shared Google doc, but then you wouldn't
+    have code in your favorite code editor, you wouldn't be able to translate,
+    and it would be harder to tell who changed what. Also people could change
+    things without others' review, which may or may not be what you want.
+    But it'd be easier because you wouldn't have to go through these additional
+    steps of making a pull request etc. It's a little like having getters
+    and setters instead of just editing your variables directly. Sort of
+    controls the access, a little.
+
+    You could collaborate using Subversion, which is pretty much comparable to
+    what we have here. The pull request part is nice. I don't know if SVN
+    has similar functionality or not. If it does, I don't think we're using it.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
