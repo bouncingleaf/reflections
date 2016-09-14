@@ -71,4 +71,18 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    It's like going into a separate room or not. Once you've been in the other
+    room for a while, when you come out ready to show your work you may find
+    that some of the parts have changed while you were away. You'll need to
+    incorporate those changes into what you've built. So it allows you to work
+    in an environment that isn't shifting until you ask it to update from
+    master.
+
+    It also allows you to get your changes ready and then they can be reviewed
+    all at once. And I guess it allows review at all! If you are changing
+    right in master then you're not getting the chance for review that a pull
+    request has.
+
+    Again with the comparison with getters and setters... changing the variable
+    directly is easier but it's more dangerous. Here it's more dangerous bc
+    you're not getting the benefit of a review.
